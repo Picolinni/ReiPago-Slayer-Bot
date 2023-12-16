@@ -1,0 +1,21 @@
+{
+  "name": "reipago-slayer-bot",
+  "version": "1.0.0",
+  "description": "A discord bot solely built to slay, destroy, annihilate and obliterate Rei Pago.",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: No test specified;\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Picolinni/ReiPago-Slayer-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
