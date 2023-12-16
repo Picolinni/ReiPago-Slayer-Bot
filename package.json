@@ -4,7 +4,9 @@
   "description": "A discord bot solely built to slay, destroy, annihilate and obliterate Rei Pago.",
   "main": "index.js",
   "scripts": {
-    "test": "\"echo \\\"Error: No test specified;\" && exit 1"
+    "test": "\"echo \\\"Error: No test specified;\" && exit 1",
+    "dev": "nodemon --config nodemon.json ./src/index.ts",
+    "start": "tsc && node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,9 @@
     "dotenv": "^16.3.1"
   },
   "devDependencies": {
-    "eslint": "^8.56.0"
-  }
+    "eslint": "^8.56.0",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2"
+  },
+  "type": "module"
 }
