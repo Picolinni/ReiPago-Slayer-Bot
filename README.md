@@ -5,4 +5,5 @@
 <ol>
     <li>npm install discord.js</li>
     <li>npm install --save-dev eslint</li>
+    <li>npm install dotenv </li>
 </ol>
